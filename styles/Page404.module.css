@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+.title {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: rgb(177, 177, 177);
+  font-weight: normal;
+}
+.line {
+  width: 5px;
+  height: 30px;
+  background-color: rgb(177, 177, 177);
+}
+.description {
+  color: rgb(85, 85, 85);
+  font-weight: normal;
+}
